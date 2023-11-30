@@ -37,9 +37,9 @@ const Contact = () => {
                 'template_vucloro',
                 {
                     from_name: form.name,
-                    to_name: 'Viren',
+                    to_name: 'Shruti',
                     from_email: form.email,
-                    to_email: 'virenahire999@gmail.com',
+                    to_email: 'shrutiawatade2015@gmail.com',
                     message: form.message,
                 },
                 'f9ZJBt2lq3iICTV3g'
