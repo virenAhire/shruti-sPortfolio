@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
-
+import { logo, menu, close } from '../assets';
 const Hero = () => {
     return (
-        <section className={`relative w-full h-screen mx-auto`}>
+        <section className={`relative w-full h-screen mx-auto flex items-center justify-center`}>
             <div
                 className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
             >
@@ -23,6 +23,17 @@ const Hero = () => {
                         <br className="sm:block hidden" /> CFA Level II Candidate.
                     </p>
                 </div>
+            </div>
+            <div className="hidden sm:block xl:hidden w-3/6">
+                <img src={logo} alt="" className="w-full h-full object-cover" />
+            </div>
+
+            <div className="sm:hidden lg:hidden md:hidden xl:hidden w-3/6 mt-10">
+                <img src={logo} alt="" className="w-full h-full object-cover" />
+            </div>
+
+            <div className="hidden xl:block w-2/6 absolute right-20">
+                <img src={logo} alt="" className="w-full h-full object-cover" />
             </div>
 
             {/* <ComputersCanvas /> */}

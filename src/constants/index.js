@@ -53,7 +53,7 @@ const services = [
         icon: mobile,
     },
     {
-        title: 'Data Analysis',
+        title: 'Portfolio Management',
         icon: backend,
     },
     {
@@ -119,29 +119,29 @@ const technologies = [
 
 const experiences = [
     {
-        title: 'Content Writer',
-        company_name: 'Web Technologies Private Ltd. ',
+        title: 'Mutual fund portfolio',
+        company_name: '',
         icon: wt_logo,
         iconBg: '#383E56',
-        date: 'March 2021 - August 2021',
+        date: 'March 2021 - Present',
         points: [
-            'Successfully produced high-quality, engaging, and SEO-optimized content for various digital platforms.',
-            'Conducted in-depth research on a wide range of topics related to web technologies, staying up-to-date with industry trends.',
-            "Collaborated with the marketing team to develop and execute content strategies aligned with the company's goals and target audience.",
-            'Meticulously reviewed and edited content to maintain high standards of grammar, style, and clarity, ensuring a consistent and professional brand voice.',
+            'Demonstrated a meticulous approach to building portfolios.',
+            'Integrated a deep understanding of diverse asset classes, market dynamics, and risk management principles',
+            'Demonstrated a proactive approach to managing and mitigating risks associated with investment opportunities.',
+            'Ensured portfolios are well-balanced and resilient to market volatility.',
         ],
     },
     {
-        title: 'Intern',
-        company_name: 'Updeed',
+        title: 'Stock trading',
+        company_name: '',
         icon: updeed_logo,
         iconBg: '#E6DEDD',
-        date: 'April 2021 - May 2021',
+        date: 'April 2021 - Present',
         points: [
-            'Developed and executed successful user acquisition strategies to increase app downloads and engagement.',
-            'Conducted comprehensive market research to identify target demographics and user segments, enabling precise targeting and messaging.',
-            'Implemented user engagement campaigns, in-app features, and notifications to enhance user retention and drive higher app usage.',
-            'Gathered user feedback and insights, collaborating with the development team to implement user-requested features and improvements.',
+            'Proficient in utilizing financial tools for fundamental and technical analyses.',
+            'Commits to staying updated on market news, economic indicators, and global events.',
+            'Integrates fundamental and technical analyses for a balanced approach.',
+            'Demonstrates a commitment to continuous improvement and staying informed for strategic decision-making',
         ],
     },
     {
@@ -175,25 +175,27 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-        name: 'Sara Lee',
+            'Shruti brings a unique blend of theoretical expertise and practical insight to the financial landscape. Her meticulous research and analytical proficiency make her a trusted advisor for navigating complex market trends.',
+        name: 'Shruti Tripathi',
         designation: 'CFO',
         company: 'Acme Co',
-        image: 'https://randomuser.me/api/portraits/women/4.jpg',
+        image: 'src/assets/tripathi.jpg',
     },
     {
-        testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: 'Chris Brown',
+        testimonial:
+            "I am continually impressed by Shruti's commitment to staying informed and adapting to dynamic market conditions. Her holistic approach to trading, integrating both fundamental and technical analyses, sets her apart.",
+        name: 'Anisha',
         designation: 'COO',
         company: 'DEF Corp',
-        image: 'https://randomuser.me/api/portraits/men/5.jpg',
+        image: 'src/assets/anagha.jpg',
     },
     {
-        testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: 'Lisa Wang',
+        testimonial:
+            " Shruti's grounded approach to trading, coupled with a keen eye for emerging trends, reflects a deep understanding of financial markets. Shruti is not only proficient in using financial tools but also committed to continuous improvement.",
+        name: 'Anagha Khandelwal',
         designation: 'CTO',
         company: '456 Enterprises',
-        image: 'https://randomuser.me/api/portraits/women/6.jpg',
+        image: '/src/assets/anisha.jpg',
     },
 ];
 
