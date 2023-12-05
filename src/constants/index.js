@@ -179,7 +179,7 @@ const testimonials = [
         name: 'Shruti Tripathi',
         designation: 'CFO',
         company: 'Acme Co',
-        image: 'src/assets/tripathi.jpg',
+        image: '/assets/tripathi.jpg',
     },
     {
         testimonial:
@@ -187,7 +187,7 @@ const testimonials = [
         name: 'Anisha',
         designation: 'COO',
         company: 'DEF Corp',
-        image: 'src/assets/anagha.jpg',
+        image: '/assets/anagha.jpg',
     },
     {
         testimonial:
@@ -195,7 +195,7 @@ const testimonials = [
         name: 'Anagha Khandelwal',
         designation: 'CTO',
         company: '456 Enterprises',
-        image: '/src/assets/anisha.jpg',
+        image: '/assets/anisha.jpg',
     },
 ];
 
