@@ -24,11 +24,20 @@ const Hero = () => {
                     </p>
                 </div>
             </div>
-            <div className="hidden sm:block xl:hidden w-3/6">
+            {/* only sm block */}
+            <div className="hidden sm:block md:hidden lg:hidden xl:hidden w-3/6 mt-20">
+                <img src={logo} alt="" className="w-full h-full object-cover" />
+            </div>
+            {/* all block */}
+            <div className="sm:hidden lg:hidden md:hidden xl:hidden w-3/6 mt-10">
                 <img src={logo} alt="" className="w-full h-full object-cover" />
             </div>
 
-            <div className="sm:hidden lg:hidden md:hidden xl:hidden w-3/6 mt-10">
+            <div className="hidden sm:hidden lg:hidden md:block xl:hidden w-2/6 mt-20">
+                <img src={logo} alt="" className="w-full h-full object-cover" />
+            </div>
+
+            <div className="hidden sm:hidden lg:block md:hidden xl:hidden w-2/6 mt-20">
                 <img src={logo} alt="" className="w-full h-full object-cover" />
             </div>
 
