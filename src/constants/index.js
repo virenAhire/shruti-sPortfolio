@@ -119,11 +119,11 @@ const technologies = [
 
 const experiences = [
     {
-        title: 'Mutual fund portfolio',
+        title: 'Mutual fund portfolio construction',
         company_name: '',
         icon: wt_logo,
         iconBg: '#383E56',
-        date: 'March 2021 - Present',
+        date: 'March 2022 - Present',
         points: [
             'Demonstrated a meticulous approach to building portfolios.',
             'Integrated a deep understanding of diverse asset classes, market dynamics, and risk management principles',
@@ -136,7 +136,7 @@ const experiences = [
         company_name: '',
         icon: updeed_logo,
         iconBg: '#E6DEDD',
-        date: 'April 2021 - Present',
+        date: 'April 2022 - Present',
         points: [
             'Proficient in utilizing financial tools for fundamental and technical analyses.',
             'Commits to staying updated on market news, economic indicators, and global events.',
@@ -177,24 +177,24 @@ const testimonials = [
         testimonial:
             'Shruti brings a unique blend of theoretical expertise and practical insight to the financial landscape. Her meticulous research and analytical proficiency make her a trusted advisor for navigating complex market trends.',
         name: 'Shruti Tripathi',
-        designation: 'CFO',
-        company: 'Acme Co',
+        designation: '',
+        company: '',
         image: '/assets/tripathi.jpg',
     },
     {
         testimonial:
-            "I am continually impressed by Shruti's commitment to staying informed and adapting to dynamic market conditions. Her holistic approach to trading, integrating both fundamental and technical analyses, sets her apart.",
+            "Shruti's expertise in mutual fund management is truly commendable. Her strategic approach to analyzing market trends and making informed decisions reflects a profound understanding of the nuances within the mutual fund landscape.",
         name: 'Anisha',
-        designation: 'COO',
-        company: 'DEF Corp',
+        designation: '',
+        company: '',
         image: '/assets/anagha.jpg',
     },
     {
         testimonial:
             " Shruti's grounded approach to trading, coupled with a keen eye for emerging trends, reflects a deep understanding of financial markets. Shruti is not only proficient in using financial tools but also committed to continuous improvement.",
         name: 'Anagha Khandelwal',
-        designation: 'CTO',
-        company: '456 Enterprises',
+        designation: '',
+        company: '',
         image: '/assets/anisha.jpg',
     },
 ];
