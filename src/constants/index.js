@@ -184,7 +184,7 @@ const testimonials = [
     {
         testimonial:
             "Shruti's expertise in mutual fund management is truly commendable. Her strategic approach to analyzing market trends and making informed decisions reflects a profound understanding of the nuances within the mutual fund landscape.",
-        name: 'Anisha',
+        name: 'Anagha Sawalapurkar',
         designation: '',
         company: '',
         image: '/assets/anagha.jpg',
@@ -192,7 +192,7 @@ const testimonials = [
     {
         testimonial:
             " Shruti's grounded approach to trading, coupled with a keen eye for emerging trends, reflects a deep understanding of financial markets. Shruti is not only proficient in using financial tools but also committed to continuous improvement.",
-        name: 'Anagha Khandelwal',
+        name: 'Anisha Khandelwal',
         designation: '',
         company: '',
         image: '/assets/anisha.jpg',
